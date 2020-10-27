@@ -35,6 +35,7 @@ namespace ConsoleApp1
             r = (Math.Pow(y, x + 1)) / (Math.Pow(Math.Abs(y - 2), 1.0 / 3) + 3) + (x + y / 2) / (2 * Math.Abs(x + y)) * Math.Pow((x + 1), -1 / Math.Sin(z));
             string res = string.Format("{0:f3}", r);
             Console.WriteLine("Результат очислення: r = " + res);
+
         }
     }
 }
